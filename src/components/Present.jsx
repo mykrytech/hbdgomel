@@ -2,6 +2,7 @@ import React from 'react'
 import SectionWrapper from './SectionWrapper'
 import "../assets/css/present.css";
 import myAudio from '../audio/meong.mp3';
+import Birhday from '../assets/Birhday.gif';
 
 function Present() {
   // Fungsi untuk memutar audio saat kotak hadiah diklik
@@ -25,7 +26,7 @@ function Present() {
           <div className="gift-bottom"></div>
           <div className="photo-container">
             <div className="entry photo-frame">
-              <img src="../src/assets/Birhday.gif" alt="Foto" className="photo-image" />
+              <img src={Birhday} alt="Foto" className="photo-image" />
             </div>
             </div>
         </label>
